@@ -77,26 +77,36 @@ body {
     margin: 0 auto;
 }
 
+.container.top-nav {
+    margin: 30px;
+}
+
 .top-nav {
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
-    padding-top: 2%;
+    align-items: baseline;
 }
 
 .top-nav a {
     text-decoration: none;
     color: black;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.top-nav a:hover {
+    background-color: black;
+    color: white;
 }
 
 .headerimg {
-    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .logo {
     float: left;
     vertical-align: middle;
-
 }
 
 .top-content {

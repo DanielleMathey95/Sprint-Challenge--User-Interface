@@ -10,22 +10,31 @@
 
 .about-nav {
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-between;
-  padding-top: 2%;
+  align-items: baseline;
 }
 
 .about-nav a {
   text-decoration: none;
   color: black;
+  justify-content: space-between;
+  padding: 30px;
 }
 
-.logo {
-  float: left;
+.about-nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.about-header-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .about-section {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 90%;
 }
 
 .top-half {
@@ -40,7 +49,16 @@
   padding-bottom: 40px;
 }
 
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 20px 0;
+}
+
 .bottom-content {
-  width: 100%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
 }
