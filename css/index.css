@@ -75,13 +75,13 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
 }
 
 .top-nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding-top: 2%;
 }
 
 .top-nav a {

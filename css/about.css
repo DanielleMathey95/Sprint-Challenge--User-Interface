@@ -1,0 +1,46 @@
+.containter-about-page {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.body-about {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.about-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-top: 2%;
+}
+
+.about-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  float: left;
+}
+
+.about-section {
+  padding-bottom: 15px;
+}
+
+.top-half {
+  display: inline-block;
+  width: 45%;
+  padding-bottom: 40px;
+}
+
+.bottom-half {
+  display: inline-block;
+  width: 45%;
+  padding-bottom: 40px;
+}
+
+.bottom-content {
+  width: 100%;
+  margin: 0 auto;
+}
