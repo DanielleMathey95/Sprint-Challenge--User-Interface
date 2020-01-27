@@ -66,9 +66,16 @@ p {
     line-height: 1.4;
 }
 
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .top-nav {
@@ -82,10 +89,14 @@ p {
     color: black;
 }
 
+.headerimg {
+    width: 100%;
+}
+
 .logo {
     float: left;
     vertical-align: middle;
-    
+
 }
 
 .top-content {
