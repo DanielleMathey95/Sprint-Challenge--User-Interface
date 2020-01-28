@@ -66,9 +66,47 @@ p {
     line-height: 1.4;
 }
 
-.container {
+body {
     width: 800px;
     margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container.top-nav {
+    margin: 30px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.top-nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.headerimg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    float: left;
+    vertical-align: middle;
 }
 
 .top-content {
@@ -106,7 +144,105 @@ p {
     height: 100px;
     background: black;
     margin: 20px 2.5%;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-teal {
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-gold {
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-cadetblue {
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-coral {
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-crimson {
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-forestgreen {
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-darkorchid {
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-hotpink {
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-indigo {
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-dodgerblue {
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
     display: flex;
     align-items: center;
     justify-content: center;
